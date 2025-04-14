@@ -92,23 +92,3 @@ Le <strong>Jeu de la Vie</strong> est un automate cellulaire imaginé par le mat
   <li><strong>Motifs pré-programmés</strong> : ajout via le clavier pendant l’exécution.</li>
   <li><strong>Parallélisation</strong> de la mise à jour des cellules (optimisation multi-thread).</li>
 </ul>
-
-<h2>📌 Lancement du programme</h2>
-
-<pre><code># Compilation
-g++ -std=c++17 -o jeu_de_la_vie src/*.cpp -lsfml-graphics -lsfml-window -lsfml-system
-
-# Exécution (mode console)
-./jeu_de_la_vie chemin/vers/fichier.txt --mode=console
-
-# Exécution (mode graphique)
-./jeu_de_la_vie chemin/vers/fichier.txt --mode=graphique
-</code></pre>
-
-<h2>🤝 Auteurs</h2>
-<ul>
-  <li>👤 Étudiant 1</li>
-  <li>👤 Étudiant 2</li>
-</ul>
-
-<p><em>Un projet réalisé dans le cadre du module de Programmation Orientée Objet – Année 2025</em></p>
